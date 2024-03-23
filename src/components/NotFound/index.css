@@ -1,0 +1,37 @@
+.notfound-image {
+  width: 300px;
+}
+.nofound-container {
+  background-color: #f5f7fa;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+  padding: 20px;
+}
+.nofound-heading {
+  color: #334155;
+  font-size: 22px;
+  font-weight: 500;
+}
+.nofound-discription {
+  color: #475569;
+  font-size: 17px;
+}
+.nofound-link {
+  text-decoration: none;
+}
+.nofound-button {
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: 15px;
+  background-color: #0284c7;
+}

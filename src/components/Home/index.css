@@ -1,0 +1,234 @@
+.home-bg-container {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home-heading {
+  color: #1e293b;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.home-link {
+  text-decoration: none;
+}
+.home-container {
+  padding: 20px;
+  font-family: 'Roboto';
+}
+.contact-paragraph {
+  color: #3d3c3c;
+  font-size: 16px;
+  font-weight: 600;
+}
+.home-paragraph {
+  font-size: 16px;
+  color: #475569;
+  font-weight: 450;
+  line-height: 24px;
+}
+.home-find-books-btn {
+  background-color: #0284c7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.home-top-tated-books-container {
+  background-color: white;
+  height: 280px;
+}
+.top-tated-books {
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.react-slick-continer {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.home-slick-image {
+  width: 80px;
+}
+.home-slick-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.home-authorName {
+  color: #334155;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 6px;
+}
+.home-slick-title {
+  color: #475569;
+  font-size: 15px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.slick-image-container {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.react-slick-continer-two {
+  display: none;
+}
+.home-slick-findbooks-btn-Conrainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-find-books-btn2 {
+  display: none;
+}
+.loader-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  height: 180px;
+}
+.home-failure-container {
+  padding-bottom: 0px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+.home-failure-paragraph {
+  color: #475569;
+  font-size: 16px;
+  font-weight: 500;
+}
+.failure-tryagain-btn {
+  background-color: #0284c7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.contact-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+}
+.contact-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.contact-icon {
+  color: #3d3c3c;
+  height: 15px;
+  width: 15px;
+}
+@media (min-width: 576px) {
+  .home-failure-paragraph {
+    font-size: 18px;
+  }
+  .contact-icon {
+    color: #3d3c3c;
+    height: 16px;
+    width: 16px;
+  }
+}
+@media (min-width: 768px) {
+  .react-slick-continer-two {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .home-find-books-btn2 {
+    display: flex;
+    margin-right: 20px;
+    background-color: #0284c7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .home-find-books-btn {
+    display: none;
+  }
+  .react-slick-continer {
+    display: none;
+  }
+  .home-container {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Roboto';
+  }
+  .home-top-tated-books-container {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .top-tated-books {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+    padding-top: 20px;
+  }
+}
+.contact-icon {
+  color: #3d3c3c;
+  height: 17px;
+  width: 17px;
+}
+@media (min-width: 992px) {
+  .home-container {
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: 'Roboto';
+  }
+  .home-top-tated-books-container {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .contact-icon {
+    color: #3d3c3c;
+    height: 18px;
+    width: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  .home-container {
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: 'Roboto';
+  }
+  .home-top-tated-books-container {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .contact-icon {
+    color: #3d3c3c;
+    height: 19px;
+    width: 19px;
+  }
+}
+.home-failure-container{
+  margin-top: 0px;
+}
